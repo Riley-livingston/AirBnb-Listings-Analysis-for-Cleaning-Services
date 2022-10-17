@@ -1,7 +1,7 @@
 SELECT host_id,
 	   host_name,
 	   host_url,
-	   CAST(host_total_listings_count AS INT) host_total_listings_count_clean,
+	   CAST(host_total_listings_count AS INT) AS host_total_listings_count_clean,
 	   CAST(number_of_reviews AS INT) AS number_of_reviews_clean ,
 	   COUNT(DISTINCT comments) AS dirty_review_count,
 	   CAST(review_scores_cleanliness AS FLOAT) AS review_scores_cleanliness_clean,
@@ -34,4 +34,4 @@ AND LENGTH(review_Scores_cleanliness) <= 4
 AND review_scores_cleanliness LIKE '%.%'
 AND LENGTH(number_of_reviews) <=3
 GROUP BY host_id, host_url
-ORDER BY dirty_review_count DESC
+ORDER BY number_of_reviews_clean DESC
