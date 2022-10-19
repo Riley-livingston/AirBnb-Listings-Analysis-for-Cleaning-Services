@@ -58,8 +58,10 @@ Analysis:  <br/>
 
 <br />
 <br />
-Vizualization and key findings:  <br/>
-
+ Vizualization and key findings</u>:
+<br />
+<br />
+<img src="https://i.imgur.com/rYFPerR.png" height = "100%" width="100%" alt = "Results Snapshot: Top 25 Hosts sorted by dirty reviews per listing"/>
 <br />
 <br />
 
