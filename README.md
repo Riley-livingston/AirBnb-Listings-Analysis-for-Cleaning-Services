@@ -38,7 +38,7 @@ This project consists of exploritory analysis of publicly available Airbnb data.
 - <b>Determine a high conversion rate client list that can be utulized by airbnb cleaning services in NYC using exploratory analysis.</b>
  
   -<b> KEY METRICS: 
-    - <b>number of distinct reviews that contain words signaling uncleanliness groped by host
+    - <b>number of distinct reviews that contain words signaling uncleanliness grouped by host
     - <b>number of distinct reviews that contain words signaling uncleanliness per listing grouped by host
  
 
