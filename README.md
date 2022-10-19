@@ -8,7 +8,7 @@
 - <a href="https://github.com/Riley-livingston"> @RileyLivingston</a>
 
 <h2>Description</h2>
-This project consists of exploritory analysis of publicly available Airbnb data scrapped directly from Airbnb's website by third party <a href="https://insideairbnb.com"> insideairbnb</a>. This directory will guide you through the steps I took and thought process in formulating a client list for an Airbnb cleaning service in New York City.
+This project consists of exploritory analysis of publicly available Airbnb data. This directory will guide you through the steps I took and thought process in formulating a client list for an Airbnb cleaning service in New York City.
 
 <br />
 
@@ -44,7 +44,9 @@ This project consists of exploritory analysis of publicly available Airbnb data 
 
 <br />
 <br />
- Data preparation:  <br/>
+ <u>Data preparation</u>: 
+ 
+ - <b>Data for this anaysis was scrapped directly from Airbnb's website by third party <a href="https://insideairbnb.com"> insideairbnb</a>.
 
 <br />
 <br />
