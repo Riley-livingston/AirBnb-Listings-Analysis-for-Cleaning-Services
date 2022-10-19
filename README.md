@@ -13,16 +13,16 @@ This project consists of exploritory analysis of publicly available Airbnb data 
 <br />
 
 
-<h2>Languages and Utilities Used</h2>
+<h2>Languages and utilities used</h2>
 
 - <b>MySQL</b> 
 - <b>Tableau</b>
 
-<h2>Environments Used </h2>
+<h2>Environments used </h2>
 
 - <b>DBeaver 22.2.2</b>
 
-<h2>Data Source</h2>
+<h2>Data source</h2>
 
 - <a href="https://drive.google.com/drive/folders/1Q2yFaDajfJ6hALKMCmrQbHnFhsti44bO?usp=sharing"> Airbnb detailed listings and reviews data NYC 09-07-2022</a>
 
@@ -33,15 +33,15 @@ This project consists of exploritory analysis of publicly available Airbnb data 
 <h2>Data Analysis Process:</h2>
 
 <p align="left">
-Business Task: <br/>
+Business task: <br/>
 
 <br />
 <br />
- Data Preparation:  <br/>
+ Data preparation:  <br/>
 
 <br />
 <br />
-Process and Cleaning: <br/>
+Process and cleaning: <br/>
 
 <br />
 <br />
@@ -49,7 +49,7 @@ Analysis:  <br/>
 
 <br />
 <br />
-Vizualization and Key Findings:  <br/>
+Vizualization and key findings:  <br/>
 
 <br />
 <br />
