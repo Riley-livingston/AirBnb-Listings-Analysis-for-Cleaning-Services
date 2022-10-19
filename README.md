@@ -58,10 +58,12 @@ Analysis:  <br/>
 
 <br />
 <br />
- Vizualization and key findings</u>:
-<br />
-<br />
-<img src="https://i.imgur.com/rYFPerR.png" height = "100%" width="100%" alt = "Results Snapshot: Top 25 Hosts sorted by dirty reviews per listing"/>
+ <u>Vizualization and key findings</u>:
+<br/>
+<br/> 
+ - <b>VIZ PREVIEW:
+   <img src="https://i.imgur.com/rYFPerR.png" height = "100%" width="100%" alt = "Results Snapshot: Top 25 Hosts sorted by dirty reviews per listing"/>
+ - <a href="https://public.tableau.com/app/profile/riley.livingston/viz/Airbnbdirtyreviewproject/Dashboard1?publish=yes"> Tableau | dashboard</a>
 <br />
 <br />
 
