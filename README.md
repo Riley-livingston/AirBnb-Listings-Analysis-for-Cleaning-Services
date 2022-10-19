@@ -33,7 +33,14 @@ This project consists of exploritory analysis of publicly available Airbnb data 
 <h2>Data Analysis Process:</h2>
 
 <p align="left">
-Business task: <br/>
+ Business task: <br/>
+ 
+- <b>Determine a high conversion rate client list that can be utulized by airbnb cleaning services in NYC using exploratory analysis.</b>
+ 
+  -<b> KEY METRICS: 
+    - <b>number of distinct reviews that contain words signaling uncleanliness
+    - <b>number of distinct reviews that contain words signaling uncleanliness per listing
+ 
 
 <br />
 <br />
