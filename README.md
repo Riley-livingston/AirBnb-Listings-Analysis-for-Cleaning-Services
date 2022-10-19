@@ -1,9 +1,9 @@
 <h1>Airbnb Analysis for Cleaning Services - Active Directory </h1>
 
- ### [YouTube Demonstration](https://youtu.be/7eJexJVCqJo)
 
 <h2>Description</h2>
-Project consists of a simple PowerShell script that walks the user through "zeroing out" (wiping) any drives that are connected to the system. The utility allows you to select the target disk and choose the number of passes that are performed. The PowerShell script will configure a diskpart script file based on the user's selections and then launch Diskpart to perform the disk sanitization.
+This project consists of exploritory analysis of publicly available Airbnb data scrapped directly from Airbnb's website by third party <a href="https://insideairbnb.com"> insideairbnb</a>. This directory will guide you through the steps I took and thought process in formulating a client list for an Airbnb cleaning service in New York City.
+
 <br />
 
 
