@@ -16,6 +16,14 @@ This project consists of exploritory analysis of publicly available Airbnb data 
 
 - <b>DBeaver 22.2.2</b>
 
+<h2>Data Source</h2>
+
+- <a href="https://drive.google.com/drive/folders/1Q2yFaDajfJ6hALKMCmrQbHnFhsti44bO?usp=sharing"> Airbnb detailed listings and reviews data NYC 09-07-2022</a>
+
+<h2>Methods</h2>
+
+- <b>Exploratory data analysis</b>
+
 <h2>Data Analysis Process:</h2>
 
 <p align="left">
@@ -39,6 +47,8 @@ Vizualization and Key Findings:  <br/>
 
 <br />
 <br />
+
+<h2>Limitations and what can be improved </h2>
 
 <!--
  ```diff
