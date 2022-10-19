@@ -3,6 +3,10 @@
 <h1>Airbnb Analysis for Cleaning Services in NYC - Active Directory </h1>
 
 
+<h2>Authors</h2
+
+ - <a href="https://github.com/Riley-livingston"> @RileyLivingston</a>
+
 <h2>Description</h2>
 This project consists of exploritory analysis of publicly available Airbnb data scrapped directly from Airbnb's website by third party <a href="https://insideairbnb.com"> insideairbnb</a>. This directory will guide you through the steps I took and thought process in formulating a client list for an Airbnb cleaning service in New York City.
 
