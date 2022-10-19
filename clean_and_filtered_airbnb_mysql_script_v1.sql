@@ -1,9 +1,8 @@
 SELECT host_id,
 	   host_name,
 	   host_url,
-	   CAST(host_total_listings_count AS INT) AS host_total_listings_count_clean,
-	   CAST(number_of_reviews AS INT) AS number_of_reviews_clean ,
-	   COUNT(DISTINCT comments) AS dirty_review_count,
+	   host_total_listings_count,
+	   COUNT(DISTINCT comments) as dirty_review_count,
 	   CAST(review_scores_cleanliness AS FLOAT) AS review_scores_cleanliness_clean,
 	   CAST(review_scores_rating AS FLOAT) AS review_scores_rating_clean
 FROM reviews r
@@ -24,14 +23,9 @@ WHERE r.comments  LIKE  '%dirt%'
 	OR r.comments LIKE  '%nasty%'
 	OR r.comments LIKE  '%disgust%'
 	OR r.comments LIKE  '%odor%'
-	OR r.comments LIKE  '%roach%'
-	OR r.comments LIKE  '%bug%'
-	OR r.comments LIKE  '%rancid%'
-	OR r.comments LIKE  '%stench%'
 AND LENGTH(review_scores_rating) <= 4
 AND review_scores_rating LIKE '%.%'
 AND LENGTH(review_Scores_cleanliness) <= 4
 AND review_scores_cleanliness LIKE '%.%'
-AND LENGTH(number_of_reviews) <=3
-GROUP BY host_id, host_url
-ORDER BY number_of_reviews_clean DESC
+GROUP BY host_id, host_url, host_name
+ORDER BY dirty_review_count DESC
