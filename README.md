@@ -72,7 +72,7 @@ Analysis:  <br/>
 <br />
 
 <h2>Limitations and what can be improved </h2>
-The data and results of this project are a snapchat of listings available on Airbnb on September 7th 2022. Hosts may remove or add listings at anytime and renters may post or delete reviews at anytime which may impact the results of the analysis. Seasonality bias may be present in the number of reviews that contain 'dirty' words indicating uncleanliness. 
+The data and results of the analysis are a snapchat of listings available on Airbnb on September 7th 2022. Hosts may remove or add listings at anytime and renters may post or delete reviews at anytime which may impact the results of the analysis. Seasonality bias may be present in the number of reviews that contain 'dirty' words indicating uncleanliness. 
 
 <!--
  ```diff
