@@ -1,3 +1,5 @@
+<img src="https://i.imgur.com/KAKciod.jpg" height = "100%" width="100%" alt = ">Airbnb Analysis for Cleaning Services"/>
+
 <h1>Airbnb Analysis for Cleaning Services - Active Directory </h1>
 
 
