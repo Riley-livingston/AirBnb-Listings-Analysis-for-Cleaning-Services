@@ -44,10 +44,14 @@ This project consists of exploritory analysis of publicly available Airbnb data.
 
 <br />
 <br />
+<p align="left">
  <u>Data preparation</u>: 
  
- - <b>Data for this anaysis was scrapped directly from Airbnb's website by third party <a href="https://insideairbnb.com"> insideairbnb</a>.
-
+ -<b> PRIVACY AND ACESSABILITY:
+ 
+   - Data for this analysis was scrapped directly from Airbnb's website by third party <a href="https://insideairbnb.com"> insideairbnb</a>
+   - All data present in this repository as well as findings derived from analysis is publicly available information and falls under fair use. No private         information is being used including names, listings, and review details as it is all publicly displayed on Airbnb’s website 
+ 
 <br />
 <br />
 Process and cleaning: <br/>
