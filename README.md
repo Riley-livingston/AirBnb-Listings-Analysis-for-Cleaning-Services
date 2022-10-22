@@ -63,7 +63,7 @@ Analysis:  <br/>
 
 <br />
 <br />
- <u>Vizualization and key findings</u>:
+ <u> key findings</u>:
 <br/>
 <br/> 
  - <b>VIZ PREVIEW:
