@@ -1,6 +1,8 @@
 <img src="https://i.imgur.com/KAKciod.jpg" height = "100%" width="100%" alt = ">Airbnb Analysis for Cleaning Services"/>
 
 <h1>Airbnb Analysis for Cleaning Services in NYC - Active Directory </h1>
+<h2>Key Findings</h2>
+Put key findings in this space. Shoert and sweet explanatoin of what you found and why it matters in the context of the business problem
 
 
 <h2>Authors</h2>
@@ -11,7 +13,6 @@
 This project consists of exploritory analysis of publicly available Airbnb data. This directory will guide you through the steps I took and thought process in formulating a client list for an Airbnb cleaning service in New York City.
 
 <br />
-
 
 <h2>Languages and utilities used</h2>
 
