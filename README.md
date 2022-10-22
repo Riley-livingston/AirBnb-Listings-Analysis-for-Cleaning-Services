@@ -67,10 +67,13 @@ Analysis:  <br/>
 <br/> 
  - <b>VIZ PREVIEW:
    <img src="https://i.imgur.com/KwWCqKt.png" height = "100%" width="100%" alt = "Results Snapshot: Top 25 Hosts sorted by dirty reviews per listing"/>
- - <a href="https://public.tableau.com/app/profile/riley.livingston/viz/Airbnbdirtyreviewproject/Dashboard1?publish=yes"> Tableau | dashboard</a>
+ - <a href="https://public.tableau.com/app/profile/riley.livingston/viz/Airbnbdirtyreviewproject/Dashboard1?publish=yes"> Tableau | Dashboard</a>
 <br />
 <br />
-
+ - <b>VIZ PREVIEW:
+   <img src="https://i.imgur.com/lOKLiWT.png" height = "100%" width="100%" alt = "Results Snapshot: Distribution and percentiles of Dirty Reviews per listing grouped by host"/>
+ - <a href="https://public.tableau.com/app/profile/riley.livingston/viz/Airbnbdirtyreviewproject/Dashboard2?publish=yes"> Tableau | Dashboard </a>
+<br />
 <h2>Limitations and what can be improved </h2>
  - <b>The data and results of the analysis are a snapchat of listings available on Airbnb on September 7th 2022. Hosts may remove or add listings at anytime and renters may post or delete reviews at anytime which may impact the results of the analysis. Seasonality bias may be present in the number of reviews that contain 'dirty' words indicating uncleanliness.</b>
 <br />
