@@ -26,6 +26,7 @@ This project consists of exploritory analysis of publicly available Airbnb data.
 <h2>Data source</h2>
 
 - <a href="https://drive.google.com/drive/folders/1Q2yFaDajfJ6hALKMCmrQbHnFhsti44bO?usp=sharing"> Airbnb detailed listings and reviews data NYC 09-07-2022</a>
+- <a href="https://docs.google.com/spreadsheets/d/1iWCNJcSutYqpULSQHlNyGInUvHg2BoUGoNRIGa6Szc4/edit#gid=1322284596"> Data dictionary</a>
 
 <h2>Methods</h2>
 
