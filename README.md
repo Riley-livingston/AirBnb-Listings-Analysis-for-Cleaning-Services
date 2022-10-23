@@ -56,7 +56,17 @@ This project consists of exploritory analysis of publicly available Airbnb data.
 <br />
 <br />
 Process and cleaning: <br/>
-
+<img src="https://i.imgur.com/ZkfqMyt.png" height = "100%" width="100%" alt = ">SQL select statement with explaination"/>
+   </b>- dsfdsfdsfdsfsd</b>
+ <br />
+ <br />
+<img src="https://i.imgur.com/Fr7ChSk.png" height = "100%" width="100%" alt = ">SQL Join statement and conditions for dirty reviews with explaination"/>
+   - dfdsfdgdfgfdg
+ <br />
+ <br />
+<img src="https://i.imgur.com/Q31eJA5.png" height = "100%" width="100%" alt = ">SQL more filtering and group by order by conditions with explaination"/>
+  - dfdfdgfdgdfgdf
+<br />
 <br />
 <br />
 Analysis:  <br/>
