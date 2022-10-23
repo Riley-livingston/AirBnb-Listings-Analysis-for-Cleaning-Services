@@ -69,7 +69,13 @@ Documentation of data processing and cleaning: <br/>
  <br />
  <br />
 <img src="https://i.imgur.com/ZkfqMyt.png" height = "100%" width="100%" alt = ">SQL select statement with explaination"/>
-   </b>- dsfdsfdsfdsfsd</b>
+      - From the listings table, host_id, host_nmae and host_url are selected. host_url and host_id are used as primary keys for the listings table to unqiyely identify each host
+ <br />
+ <br /> 
+       - Host_total_listing count and number_of_reviews are selected and casted as integers. This turns all non-numerical data in both of those columns into NULL. The data is also tranformed to be used with operators and aggregations if needed.
+ <br />
+ <br />
+       - Distinct comments are counted, selected from the reviews table, and aggregated into a new column called dirty_review_count that will count all distinct reviews that contain specified 'dirty review' words.
  <br />
  <br />
 <img src="https://i.imgur.com/Fr7ChSk.png" height = "100%" width="100%" alt = ">SQL Join statement and conditions for dirty reviews with explaination"/>
