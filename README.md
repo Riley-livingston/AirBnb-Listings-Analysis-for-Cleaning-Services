@@ -56,6 +56,7 @@ This project consists of exploritory analysis of publicly available Airbnb data.
 <br />
 <br />
 Process and cleaning: <br/>
+ <br />
 <img src="https://i.imgur.com/ZkfqMyt.png" height = "100%" width="100%" alt = ">SQL select statement with explaination"/>
    </b>- dsfdsfdsfdsfsd</b>
  <br />
