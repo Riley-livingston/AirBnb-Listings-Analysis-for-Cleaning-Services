@@ -83,7 +83,13 @@ Documentation of data processing and cleaning: <br/>
  <br />
  <br />
 <img src="https://i.imgur.com/Q31eJA5.png" height = "100%" width="100%" alt = ">SQL more filtering and group by order by conditions with explaination"/>
-  - dfdfdgfdgdfgdf
+  - The inner join between the lstings and reviews tables are further filtered under the condtions that the length of the review_score_rating and review_score_cleanliness ratings are no greater than 4 characters in length
+  <br />
+  <br />
+ - The maximum nnumber of reviews of any given listing is 999 so the maximum length of the number_of_reviews column was set to 3 in order to filter out potential invalid data.
+  <br />
+  <br />
+ - The query is fianlly grouped by host_id and host_url and then ordered by the total number of dirty reviews counted in descending order as a way to gain immediate insight into potential customers to contact for cleaning services.
 <br />
 <br />
 <br />
