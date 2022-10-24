@@ -69,7 +69,7 @@ Documentation of data processing and cleaning: <br/>
  <br />
  <br />
 <img src="https://i.imgur.com/ZkfqMyt.png" height = "100%" width="100%" alt = ">SQL select statement with explaination"/>
-        - From the listings table, host_id, host_name and host_url are selected. host_url and host_id are used as primary keys for the listings table to unqiyely identify each host
+        - From the listings table, host_id, host_name, and host_url are selected. host_url and host_id are used as primary keys for the listings table to unqiyely identify each host
  <br />
  <br /> 
         - Host_total_listing count and number_of_reviews are selected and casted as integers. This turns all non-numerical data in both of those columns into NULL. The data is also tranformed to be used with operators and aggregations if needed.
