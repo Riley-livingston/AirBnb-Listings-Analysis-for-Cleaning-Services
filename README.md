@@ -32,7 +32,7 @@ This project consists of exploritory analysis of publicly available Airbnb data.
 
 - <b>Exploratory data analysis</b>
 
-<h2>Data Analysis Process:</h2>
+<h2>Data Analysis Process</h2>
 
 <p align="left">
  <u>Business task</u>:
