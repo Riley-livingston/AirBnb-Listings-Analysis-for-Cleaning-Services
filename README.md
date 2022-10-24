@@ -51,10 +51,11 @@ This project consists of exploritory analysis of publicly available Airbnb data.
  
    - Data for this analysis was scrapped directly from Airbnb's website by third party <a href="https://insideairbnb.com"> insideairbnb</a>.
    - All data present in this repository as well as findings derived from analysis is publicly available information and falls under fair use. No private         information is being used including names, listings, and review details as it is all publicly displayed on Airbnb’s website.
+   
  <br/>
  -<b> DATA STRUCTURE AND INTEGRITY
  
-   - Data used in this analysis is organized in 2 tables(listigns and reviews) and columns in csv format. 
+   - Data used in this analysis is organized in 2 tables (listings and reviews) and columns in csv format. 
    - Integrity of the data source was verfified by choosing 10 random listings urls from the listings table listing_url column and comparing the information from the link to the infromtion scrped and orgsnized into columns in the reviews and listings tables.
 
  
