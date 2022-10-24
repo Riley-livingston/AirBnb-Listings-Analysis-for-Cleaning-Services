@@ -119,7 +119,11 @@ Analysis:  <br/>
  - A list of 15 words was selected to search for dirty reviews in the communts column of the reviews table. This list may not represnted all of the ways a person would describe unclenliness and leading to some reviews not being counted and included in the analysis.
 <br/>
 <br/>
+ - Multivariate linear regression looking at the relationship between number of dirty reviews a particular listing has and the average number of days booked out of 30 would be of use to cleaning services. The relatinship between those 2 variables generated could help bsuinesses show the value of using a cleaning service to potential cleints
+<br/>
+<br/>
  - A live dashboard could greatly improve this project by providing cleaning services data about dirty reviews left on airbnb listings in real time. With this ability, cleaning services would gain a competitive advanatge in the airbnb cleaning service space by being able to contact disguruntled hosts shortly after recivng a negative review aboutt he cleanliness of their listings. 
+ 
 
 <!--
  ```diff
