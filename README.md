@@ -128,7 +128,7 @@ Analysis:  <br/>
   - The words used to measure dirty reviews are all weighted the same but each dirty review may differ in the severity of the uncleanliness which would impact bookings and be of greater interest to a cleaning service looking for clients.
 <br />
 <br />
-  - A list of 15 words was selected to search for dirty reviews in the communts column of the reviews table. This list may not represnted all of the ways a person would describe unclenliness and leading to some reviews not being counted and included in the analysis.
+  - A list of 15 words was selected to search for dirty reviews in the communts column of the reviews table. This list may not represnted all of the ways a person would describe uncleanliness and lead to some reviews not being included in the analysis.
 <br/>
 <br/>
  Future improvements:
