@@ -43,8 +43,6 @@ This project consists of exploritory analysis of publicly available Airbnb data.
     - <b>number of distinct reviews that contain words signaling uncleanliness grouped by host
     - <b>number of distinct reviews that contain words signaling uncleanliness per listing grouped by host
  
-
-<br />
 <br />
 <p align="left">
  <u>Data preparation</u>: 
