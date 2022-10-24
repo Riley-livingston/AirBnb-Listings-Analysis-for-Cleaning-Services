@@ -97,7 +97,7 @@ Analysis:  <br/>
 
 <br />
 <br />
- <u> key findings</u>:
+ <u> Key findings</u>:
 <br/>
 <br/> 
  - <b>VIZ PREVIEW:
