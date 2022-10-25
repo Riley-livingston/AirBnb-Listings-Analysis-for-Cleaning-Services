@@ -4,7 +4,9 @@
 <h2>Key Findings</h2>
  - 10% of Airbnb hosts have at least 4 dirty reviews per listing. The top 1% of Airbnb hosts have at least 12.84 dirty reviews per listing.
   <br />
+  <br />
  - The Average Airbnb host has 1.9 dirty reviews per listing.
+  <br />
   <br />
  - The top 25 Airbnb hosts have between 9 and 43 dirty reviews per listing.
 
