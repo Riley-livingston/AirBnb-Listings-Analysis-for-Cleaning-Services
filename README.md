@@ -135,7 +135,7 @@ This project consists of exploritory analysis of publicly available Airbnb data.
  - <a href="https://public.tableau.com/app/profile/riley.livingston/viz/Airbnbdirtyreviewproject/Dashboard2?publish=yes"> Tableau | Dashboard </a>
 <br />
 <h2>Limitations and what can be improved </h2>
- Limitations:
+ <b>Limitations:<b/>
 <br />
 <br />
   - The data and results of the analysis are a snapshot of listings available from Airbnb on and before September 7th 2022. Hosts may remove or add listings at anytime and renters may post or delete reviews at anytime which may impact the results of the analysis. Seasonality bias may be present in the number of reviews that contain 'dirty' words indicating uncleanliness.</b>
@@ -147,7 +147,7 @@ This project consists of exploritory analysis of publicly available Airbnb data.
   - A list of 15 words was selected to search for dirty reviews in the communts column of the reviews table. This list may not represnted all of the ways a person would describe uncleanliness and lead to some reviews not being included in the analysis.
 <br/>
 <br/>
- Future improvements:
+ <b>Future improvements:<b/>
 <br/>
 <br/>
   - Multivariate linear regression looking at the relationship between number of dirty reviews a particular listing has and the average number of days booked out of 30 would be of use to cleaning services. The relatinship between those 2 variables generated could help bsuinesses show the value of using a cleaning service to potential cleints.
