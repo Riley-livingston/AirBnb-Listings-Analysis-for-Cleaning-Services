@@ -65,7 +65,7 @@ This project consists of exploritory analysis of publicly available Airbnb data.
  
 <br />
 <br />
-Documentation of data processing and cleaning: <br/>
+<u>Documentation of data processing and cleaning<u>: <br/>
   - <a href="https://github.com/Riley-livingston/AirBnb-Project/blob/main/clean_and_filtered_airbnb_mysql_script_v1.sql"> SQL script to clean and filter the data.sql</a>
 <br />
   - <a href="https://github.com/Riley-livingston/AirBnb-Project/blob/main/clean_and_filtered_airbnb_data_v2.csv"> Cleaned and filtered data.csv</a>
@@ -111,7 +111,7 @@ Analysis:  <br/>
 
 <br />
 <br />
- <u> Key findings</u>:
+ <u>Key findings</u>:
 <br/>
 <br/> 
  - <b>VIZUALIZATION PREVIEW:
