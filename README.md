@@ -1,4 +1,4 @@
-<img src="https://i.imgur.com/KAKciod.jpg" height = "100%" width="100%" alt = ">Airbnb Analysis for Cleaning Services"/>
+<img src="https://i.imgur.com/2TLIili.jpg" height = "100%" width="100%" alt = ">Airbnb Analysis for Cleaning Services"/>
 
 <h1>Airbnb Analysis for Cleaning Services in NYC - Active Directory </h1>
 <h2>Key Findings</h2>
