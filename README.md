@@ -96,7 +96,7 @@ This project consists of exploritory analysis of publicly available Airbnb data.
 <br />
 <br />
 <br />
-Analysis:  <br/>
+<u>Analysis<u>:  <br/>
  <br />
  - In Tableau, dirty reviews per listing were calcualted for each host and the results were sorted in descending order. 
  <br />
