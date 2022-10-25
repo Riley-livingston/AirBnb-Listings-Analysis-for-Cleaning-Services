@@ -20,12 +20,12 @@ This project consists of exploritory analysis of publicly available Airbnb data.
 
 <h2>Languages and utilities used</h2>
 
-- <b>MySQL</b> 
-- <b>Tableau</b>
+- MySQL
+- Tableau
 
 <h2>Environments used </h2>
 
-- <b>DBeaver 22.2.2</b>
+- DBeaver 22.2.2
 
 <h2>Data source</h2>
 
@@ -34,30 +34,30 @@ This project consists of exploritory analysis of publicly available Airbnb data.
 
 <h2>Methods</h2>
 
-- <b>Exploratory data analysis</b>
+- Exploratory data analysis
 
 <h2>Data analysis process</h2>
 
 <p align="left">
  <u>Business task</u>:
  
-- <b>Determine a high conversion rate client list that can be utulized by airbnb cleaning services in NYC using exploratory analysis.</b>
+- Determine a high conversion rate client list that can be utulized by airbnb cleaning services in NYC using exploratory analysis.
  
-  -<b> KEY METRICS: 
-    - <b>number of distinct reviews that contain words signaling uncleanliness grouped by host
-    - <b>number of distinct reviews that contain words signaling uncleanliness per listing grouped by host
+  - KEY METRICS: 
+    - number of distinct reviews that contain words signaling uncleanliness grouped by host
+    - number of distinct reviews that contain words signaling uncleanliness per listing grouped by host
  
 <br />
 <p align="left">
  <u>Data preparation</u>: 
  
- -<b> PRIVACY AND ACESSABILITY
+  PRIVACY AND ACESSABILITY
  
    - Data for this analysis was scrapped directly from Airbnb's website by third party <a href="https://insideairbnb.com"> insideairbnb</a>.
    - All data present in this repository as well as findings derived from analysis is publicly available information and falls under fair use. No private         information is being used including names, listings, and review details as it is all publicly displayed on Airbnb’s website.
    
  <br/>
- -<b> DATA STRUCTURE AND INTEGRITY
+  DATA STRUCTURE AND INTEGRITY
  
    - Data used in this analysis is organized in 2 tables (listings and reviews) and columns in csv format. 
    - Integrity of the data source was verfified by choosing 10 random listings urls from the listings table listing_url column and comparing the information from the link to the infromtion scrped and orgsnized into columns in the reviews and listings tables.
@@ -151,14 +151,3 @@ This project consists of exploritory analysis of publicly available Airbnb data.
 <br/>
 <br/>
   - A live dashboard could greatly improve this project by providing cleaning services data about dirty reviews left on airbnb listings in real time. With this ability, cleaning services would gain a competitive advanatge in the airbnb cleaning service space by being able to contact disguruntled hosts shortly after recivng a negative review aboutt he cleanliness of their listings. 
- 
-
-<!--
- ```diff
-- text in red
-+ text in green
-! text in orange
-# text in gray
-@@ text in purple (and bold)@@
-```
---!>
