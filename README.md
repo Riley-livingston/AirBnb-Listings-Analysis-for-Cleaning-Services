@@ -67,7 +67,7 @@ This project consists of exploritory analysis of publicly available Airbnb data.
 <br />
 <u>Documentation of data processing and cleaning</u>: <br/>
   - <a href="https://github.com/Riley-livingston/AirBnb-Project/blob/main/clean_and_filtered_airbnb_mysql_script_v1.sql"> SQL script to clean and filter the data.sql</a>
-<br />
+ <br />
   - <a href="https://github.com/Riley-livingston/AirBnb-Project/blob/main/clean_and_filtered_airbnb_data_v2.csv"> Cleaned and filtered data.csv</a>
  <br />
  <br />
@@ -93,11 +93,11 @@ This project consists of exploritory analysis of publicly available Airbnb data.
   <br />
   <br />
     - The query is fianlly grouped by host_id and host_url and then ordered by the total number of dirty reviews counted in descending order as a way to gain immediate insight into potential customers to contact for cleaning services.
-<br />
-<br />
-<br />
+  <br />
+  <br />
+  <br />
 <u>Analysis</u>:  <br/>
- <br />
+  <br />
  - In Tableau, dirty reviews per listing were calcualted for each host and the results were sorted in descending order. 
  <br />
  <br />
