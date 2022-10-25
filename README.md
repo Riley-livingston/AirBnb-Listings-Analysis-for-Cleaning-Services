@@ -113,6 +113,7 @@ This project consists of exploritory analysis of publicly available Airbnb data.
 <br />
  <u>Key findings</u>:
   <br />
+  <br />
   - 10% of Airbnb hosts have at least 4 dirty reviews per listing. The top 1% of Airbnb hosts have at least 12.84 dirty reviews per listing.
   <br />
  - The Average Airbnb host has 1.9 dirty reviews per listing.
