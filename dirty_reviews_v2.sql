@@ -31,9 +31,9 @@ WHERE (r.comments LIKE '%dirt%'
 	OR r.comments LIKE '%unclean%' 
 	OR r.comments LIKE '%dust%'
 	OR r.comments LIKE '%mess%'
-    OR r.comments LIKE '%filth%'
+        OR r.comments LIKE '%filth%'
 	OR r.comments LIKE '%grimy%'
-    OR r.comments LIKE '%stain%'
+        OR r.comments LIKE '%stain%'
 	OR r.comments LIKE '%unkempt%'
 	OR r.comments LIKE '%stink%'
 	OR r.comments LIKE '%smell%' 
@@ -78,9 +78,9 @@ WHERE (r.comments LIKE '%dirt%'
 	OR r.comments LIKE '%crud%'
 	OR r.comments LIKE '%unswept%'
 	OR r.comments LIKE '%untidy%'
-    OR r.comments LIKE '%unwashed%'
-    OR r.comments LIKE '%unsightly%'
-    OR r.comments LIKE '%yuck%')
+        OR r.comments LIKE '%unwashed%'
+        OR r.comments LIKE '%unsightly%'
+        OR r.comments LIKE '%yuck%')
 AND booked_out_of_365 < 365  --listings with 365/365 days booked are exluded frm the analysis as they are extremely likely to be unavailable rather than fully booked for an entire year 
 AND booked_out_of_365 > 0 --listings with 0/365 days booked are exlcuded for the same reason as above
 AND price_clean > 2 --a handful of listings have a price of $2 and $1 per night. We excluded these from the query becasue they represent listings which are not taking bookings
