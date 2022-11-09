@@ -8,13 +8,13 @@ SELECT host_id,
 FROM reviews r
 INNER JOIN listings l 
 ON l.id = r.listing_id
-WHERE r.comments  LIKE  '%dirt%'
+WHERE r.comments      LIKE  '%dirt%'
 	OR r.comments LIKE  '%unclean%'
 	OR r.comments LIKE  '%dust%' 
 	OR r.comments LIKE  '%mess%' 
-    OR r.comments LIKE  '%filth%' 
+        OR r.comments LIKE  '%filth%' 
 	OR r.comments LIKE  '%grimy%' 
-    OR r.comments LIKE  '%stain%'
+        OR r.comments LIKE  '%stain%'
 	OR r.comments LIKE  '%unkempt%' 
 	OR r.comments LIKE  '%stink%' 
 	OR r.comments LIKE  '%smell%' 
