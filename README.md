@@ -62,7 +62,7 @@ This project consists of exploritory analysis of publicly available Airbnb data.
   DATA STRUCTURE AND INTEGRITY
  
    - Data used in this analysis is organized in 2 tables (listings and reviews) and columns in csv format. 
-   - Integrity of the data source was verfified by choosing 10 random listings urls from the listings table listing_url column and comparing the information from the link to the infromtion scrped and orgsnized into columns in the reviews and listings tables.
+   - Integrity of the data source was verfified by choosing 10 random listings urls from the listings table listing_url column and comparing the information from the link to the data scraped and organized into columns in the reviews and listings tables.
 
  
 <br />
