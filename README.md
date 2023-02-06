@@ -154,3 +154,6 @@ This project consists of exploritory analysis of publicly available Airbnb data.
 <br/>
 <br/>
   - A live dashboard could greatly improve this project by providing cleaning services data about dirty reviews left on airbnb listings in real time. With this ability, cleaning services would gain a competitive advanatge in the airbnb cleaning service space by being able to contact disguruntled hosts shortly after receiving a negative review about the cleanliness of their listings. 
+  <br/>
+  <br/>
+ - use a machine learning model to classify dirty vs non-dirty reviews
