@@ -74,54 +74,48 @@ This project consists of exploritory analysis of publicly available Airbnb data.
  <br />
  <br />
 <img src="https://i.imgur.com/ZkfqMyt.png" height = "100%" width="100%" alt = ">SQL select statement with explaination"/>
-   - From the listings table, host_id, host_name, and host_url are selected. host_url and host_id are used as primary keys for the listings table to unqiuely identify each host.
- <br />
- <br /> 
-   - Host_total_listing count and number_of_reviews are selected and casted as integers. This turns all non-numerical data in both of those columns into NULL. The data is also tranformed to be used with operators and aggregations if needed.
- <br />
- <br />
-   - Distinct comments are counted, selected from the reviews table, and aggregated into a new column called dirty_review_count that will count all distinct reviews that contain specified 'dirty review' words.
+<ul>
+   <li> From the listings table, host_id, host_name, and host_url are selected. host_url and host_id are used as primary keys for the listings table to unqiuely identify each host.</li>
+   <li> Host_total_listing count and number_of_reviews are selected and casted as integers. This turns all non-numerical data in both of those columns into NULL. The data is also tranformed to be used with operators and aggregations if needed.</li>
+   <li> Distinct comments are counted, selected from the reviews table, and aggregated into a new column called dirty_review_count that will count all distinct reviews that contain specified 'dirty review' words.</li>
+   </ul>
  <br />
  <br />
 <img src="https://i.imgur.com/Fr7ChSk.png" height = "100%" width="100%" alt = ">SQL Join statement and conditions for dirty reviews with explaination"/>
-   - An inner join is made between the listings and reviews tables, returning columns where the listing id matches the id field from the review table AND where airbnb listing reviews in the comments column of the review table contain at least one of the specified dirty words contained in the LIKE statements.
+<ul>
+   <li>  An inner join is made between the listings and reviews tables, returning columns where the listing id matches the id field from the review table AND where airbnb listing reviews in the comments column of the review table contain at least one of the specified dirty words contained in the LIKE statements.</li> 
+   </ul>
  <br />
  <br />
 <img src="https://i.imgur.com/Q31eJA5.png" height = "100%" width="100%" alt = ">SQL more filtering and group by order by conditions with explaination"/>
-    - The inner join between the lstings and reviews tables are further filtered under the condtions that the length of the review_score_rating and review_score_cleanliness ratings are no greater than 4 characters in length.
-  <br />
-  <br />
-    - The maximum number of reviews of any given listing is 999 so the maximum length of the number_of_reviews column was set to 3 in order to filter out potential invalid data.
-  <br />
-  <br />
-    - The query is fianlly grouped by host_id and host_url and then ordered by the total number of dirty reviews counted in descending order as a way to gain immediate insight into potential customers to contact for cleaning services.
+<ul>
+    <li> The inner join between the lstings and reviews tables are further filtered under the condtions that the length of the review_score_rating and review_score_cleanliness ratings are no greater than 4 characters in length.</li>
+    <li> The maximum number of reviews of any given listing is 999 so the maximum length of the number_of_reviews column was set to 3 in order to filter out potential invalid data.</li>
+    <li> The query is fianlly grouped by host_id and host_url and then ordered by the total number of dirty reviews counted in descending order as a way to gain immediate insight into potential customers to contact for cleaning services.</li>
+    </ul>
   <br />
   <br />
   <br />
 <u>Analysis</u>:  
   <br/>
   <br />
- - In Tableau, dirty reviews per listing were calcualted for each host and the results were sorted in descending order. 
- <br />
- <br />
- - I constructed a dual axis barchart showing the top 25 hosts in the NYC's 5 boroughs sorted by dirty reviews per listing and total dirty reviews. In the tooltip, I embeded the link to the hosts unique Airbnb Url so that if the dashboards are used as a potential client list, contact information will be easily acessable.
- <br />
- <br />
- - Accross all hosts, median, 90th, and 99th perentiles for dirty reviews per listing were calculated.
- <br />
- <br />
- - I included a <a href="https://public.tableau.com/app/profile/riley.livingston/viz/Airbnbdirtyreviewproject/Dashboard2?publish=yes"> dynamic histogram </a> that can be used as a filter for targeting hosts in a specific dirty review per listing bin. To use this, click on a bin and the packed bubble diagram will filter results to only include hosts from the bin you selected.
+  <ul>
+ <li> In Tableau, dirty reviews per listing were calcualted for each host and the results were sorted in descending order. </li>
+ <li> constructed a dual axis barchart showing the top 25 hosts in the NYC's 5 boroughs sorted by dirty reviews per listing and total dirty reviews. In the tooltip, I embeded the link to the hosts unique Airbnb Url so that if the dashboards are used as a potential client list, contact information will be easily acessable. </li>
+ <li> Accross all hosts, median, 90th, and 99th perentiles for dirty reviews per listing were calculated. </li>
+ <li> I included a <a href="https://public.tableau.com/app/profile/riley.livingston/viz/Airbnbdirtyreviewproject/Dashboard2?publish=yes"> dynamic histogram </a> that can be used as a filter for targeting hosts in a specific dirty review per listing bin. To use this, click on a bin and the packed bubble diagram will filter results to only include hosts from the bin you selected. </li>
+ </ul>
 
  <br />
  <br />
  <u>Key findings</u>:
   <br />
   <br />
-  - 10% of Airbnb hosts have at least 4 dirty reviews per listing. The top 1% of Airbnb hosts have at least 12.84 dirty reviews per listing.
-  <br />
- - The Average Airbnb host has 1.9 dirty reviews per listing.
-  <br />
- - The top 25 Airbnb hosts have between 9 and 43 dirty reviews per listing.
+  <ul>
+  <li>  10% of Airbnb hosts have at least 4 dirty reviews per listing. The top 1% of Airbnb hosts have at least 12.84 dirty reviews per listing.</li>
+  <li> The Average Airbnb host has 1.9 dirty reviews per listing. </li> 
+  <li> The top 25 Airbnb hosts have between 9 and 43 dirty reviews per listing. </li>
+  </ul>
 
 <br/>
 <br/> 
@@ -138,22 +132,22 @@ This project consists of exploritory analysis of publicly available Airbnb data.
  Limitations:
 <br />
 <br />
-  - The data and results of the analysis are a snapshot of listings available from Airbnb on and before September 7th 2022. Hosts may remove or add listings at anytime and renters may post or delete reviews at anytime which may impact the results of the analysis. Seasonality bias may be present in the number of reviews that contain 'dirty' words indicating uncleanliness.</b>
+<ul>
+  <li> The data and results of the analysis are a snapshot of listings available from Airbnb on and before September 7th 2022. Hosts may remove or add listings at anytime and renters may post or delete reviews at anytime which may impact the results of the analysis. Seasonality bias may be present in the number of reviews that contain 'dirty' words indicating uncleanliness.</li>
 <br />
+ <li> The words used to measure dirty reviews are all weighted the same but each dirty review may differ in the severity of the uncleanliness which would impact bookings and be of greater interest to a cleaning service looking for clients.</li>
 <br />
-  - The words used to measure dirty reviews are all weighted the same but each dirty review may differ in the severity of the uncleanliness which would impact bookings and be of greater interest to a cleaning service looking for clients.
-<br />
-<br />
-  - A list of 15 words was selected to search for dirty reviews in the communts column of the reviews table. This list may not represnted all of the ways a person would describe uncleanliness and lead to some reviews not being included in the analysis.
+   <li> A list of 15 words was selected to search for dirty reviews in the communts column of the reviews table. This list may not represnted all of the ways a person would describe uncleanliness and lead to some reviews not being included in the analysis. </li>
+   </ul>
 <br/>
 <br/>
  Future improvements:
 <br/>
 <br/>
-  - Multivariate linear regression looking at the relationship between number of dirty reviews a particular listing has and the average number of days booked out of 30 would be of use to cleaning services. The relatinship between those 2 variables generated could help bsuinesses show the value of using a cleaning service to potential cleints.
+<ul>
+  <li> Multivariate linear regression looking at the relationship between number of dirty reviews a particular listing has and the average number of days booked out of 30 would be of use to cleaning services. The relatinship between those 2 variables generated could help bsuinesses show the value of using a cleaning service to potential cleints.</li>
 <br/>
-<br/>
-  - A live dashboard could greatly improve this project by providing cleaning services data about dirty reviews left on airbnb listings in real time. With this ability, cleaning services would gain a competitive advanatge in the airbnb cleaning service space by being able to contact disguruntled hosts shortly after receiving a negative review about the cleanliness of their listings. 
+  <li> A live dashboard could greatly improve this project by providing cleaning services data about dirty reviews left on airbnb listings in real time. With this ability, cleaning services would gain a competitive advanatge in the airbnb cleaning service space by being able to contact disguruntled hosts shortly after receiving a negative review about the cleanliness of their listings.</li>
   <br/>
-  <br/>
- - Use a machine learning model to classify dirty vs non-dirty reviews.
+ <li> Use a machine learning model to classify dirty vs non-dirty reviews.</li>
+ </ul>
