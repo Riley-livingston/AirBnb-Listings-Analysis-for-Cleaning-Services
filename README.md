@@ -55,7 +55,7 @@ This project consists of exploritory analysis of publicly available Airbnb data.
  
 <br />
 <p align="left">
- <u>Data preparation</u>: 
+ <u>Data Preparation</u>: 
  
   PRIVACY AND ACESSABILITY
  
