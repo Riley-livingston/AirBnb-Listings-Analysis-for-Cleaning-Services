@@ -120,8 +120,8 @@ This project consists of exploritory analysis of publicly available Airbnb data.
 <br/>
 <br/> 
  <h2> Client Dashboard Preview </h2>
- <img src="dashboard_preview.png" height = "100%" width="100%" </img>
- <a href="https://public.tableau.com/views/AirbnbforCleaningServices/AirbnbClientDashboard?:language=en-US&:display_count=n&:origin=viz_share_link"> Client Dashaboard</a>
+ <img src="dashboard_preview.png" height = "750" width="100%" </img>
+ <a href="https://public.tableau.com/views/AirbnbforCleaningServices/AirbnbClientDashboard?:language=en-US&:display_count=n&:origin=viz_share_link"> Client Dashboard</a>
  
 <br>
 <br />
