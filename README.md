@@ -20,16 +20,16 @@ This project consists of exploritory analysis of publicly available Airbnb data.
 
 <br />
 
-<h2>Languages and utilities used</h2>
+<h2>Languages and Utilities Used</h2>
 
 - SQL
 - Tableau
 
-<h2>Environments used </h2>
+<h2>Environments Used </h2>
 
 - DBeaver 22.2.2
 
-<h2>Data source</h2>
+<h2>Data Source</h2>
 
 - <a href="https://drive.google.com/drive/folders/1Q2yFaDajfJ6hALKMCmrQbHnFhsti44bO?usp=sharing"> Airbnb detailed listings and reviews data NYC 09-07-2022</a>
 - <a href="https://docs.google.com/spreadsheets/d/1iWCNJcSutYqpULSQHlNyGInUvHg2BoUGoNRIGa6Szc4/edit#gid=1322284596"> Data dictionary</a>
@@ -38,10 +38,10 @@ This project consists of exploritory analysis of publicly available Airbnb data.
 
 - Exploratory data analysis
 
-<h2>Data analysis process</h2>
+<h2>Data Analysis Process</h2>
 
 <p align="left">
- <u>Business task</u>:
+ <u>Business Task</u>:
  
 - Determine a high conversion rate client list that can be utulized by airbnb cleaning services in NYC using exploratory analysis.
  
@@ -67,7 +67,7 @@ This project consists of exploritory analysis of publicly available Airbnb data.
  
 <br />
 <br />
-<u>Documentation of data processing and cleaning</u>: <br/>
+<u>Documentation of Data Processing and Cleaning</u>: <br/>
   - <a href="https://github.com/Riley-livingston/AirBnb-Project/blob/main/clean_and_filtered_airbnb_mysql_script_v1.sql"> SQL script to clean and filter the data.sql</a>
  <br />
   - <a href="https://github.com/Riley-livingston/AirBnb-Project/blob/main/clean_and_filtered_airbnb_data_v2.csv"> Cleaned and filtered data.csv</a>
@@ -108,7 +108,7 @@ This project consists of exploritory analysis of publicly available Airbnb data.
 
  <br />
  <br />
- <u>Key findings</u>:
+ <u>Key Findings</u>:
   <br />
   <br />
   <ul>
@@ -120,12 +120,12 @@ This project consists of exploritory analysis of publicly available Airbnb data.
 <br/>
 <br/> 
  <h2> Client Dashboard Preview </h2>
- <img src="dashboard_preview.png" height = "750" width="100%" </img>
+ <img src="dashboard_preview.png" height = "100%" width="1000" </img>
  <a href="https://public.tableau.com/views/AirbnbforCleaningServices/AirbnbClientDashboard?:language=en-US&:display_count=n&:origin=viz_share_link"> Client Dashboard</a>
  
 <br>
 <br />
-<h2>Limitations and what can be improved </h2>
+<h2>Limitations and What Can be Improved </h2>
  Limitations:
 <br />
 <br />
@@ -138,7 +138,7 @@ This project consists of exploritory analysis of publicly available Airbnb data.
    </ul>
 <br/>
 <br/>
- Future improvements:
+ Future Improvements:
 <br/>
 <br/>
 <ul>
